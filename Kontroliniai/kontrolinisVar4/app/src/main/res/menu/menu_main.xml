@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kontrolinisvar4.MainActivity">
+    <item
+        android:id="@+id/button_pirmi"
+        android:title="Pirmi mygtukai" />
+    <item
+        android:id="@+id/button_close"
+        android:orderInCategory="100"
+        android:title="Uzdaryti programa"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/button_antri"
+        android:title="Antri mygtukai" />
+</menu>

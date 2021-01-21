@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kontrolinisvar4.MainActivity">
+    <item
+        android:id="@+id/btn_tieses_funkcijos"
+        android:title="Tiesės funkcijos" />
+    <item
+        android:id="@+id/btn_polinomai"
+        android:title="Polinomai" />
+    <item
+        android:id="@+id/btn_trigonometrines_funkcijos"
+        android:title="Trigonometrinės funkcijos" />
+    <item
+        android:id="@+id/btn_hiperbolines_funkcijos"
+        android:title="Hiperbololinės funkcijos" />
+    <item
+        android:id="@+id/btn_laipsnine_funkcija"
+        android:title="Laipsninė funkcija" />
+    <item
+        android:id="@+id/btn_logaritmines_funkcijos"
+        android:title="Logaritminės funkcijos" />
+    <item
+        android:id="@+id/button_close"
+        android:orderInCategory="100"
+        android:title="Uzdaryti programa"
+        app:showAsAction="never" />
+</menu>

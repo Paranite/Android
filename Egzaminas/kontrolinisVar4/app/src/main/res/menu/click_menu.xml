@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btn_apie_programa"
+        android:title="Apie programa" />
+    <item
+        android:id="@+id/btn_kaip_naudotis"
+        android:title="Kaip naudotis programa" />
+</menu>

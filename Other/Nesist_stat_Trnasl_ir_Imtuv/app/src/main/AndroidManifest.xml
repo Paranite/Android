@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.nesist_stat_trnasl_ir_imtuv">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver
+            android:name=".MainActivity$Transl_Imtuvas_1"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+        </receiver>
+
+        <receiver
+            android:name=".Transl_Imtuvas_3"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+        </receiver>
+
+        <receiver
+            android:name=".Transl_Imtuvas_4"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="Mano_nesisteminis_Intentas"> </action>
+                <action android:name="Mano_nesisteminis_Intentas_2"> </action>
+            </intent-filter>
+        </receiver>
+
+<!--        <receiver-->
+<!--            android:name=".MainActivity$Transl_Imtuvas_1"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="true">-->
+<!--            &lt;!&ndash;            <intent-filter>&ndash;&gt;-->
+<!--            &lt;!&ndash;                <action&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:name = "Mano_nesisteminis_Intentas">&ndash;&gt;-->
+<!--            &lt;!&ndash;                </action>&ndash;&gt;-->
+<!--            &lt;!&ndash;            </intent-filter>&ndash;&gt;-->
+<!--        </receiver>-->
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

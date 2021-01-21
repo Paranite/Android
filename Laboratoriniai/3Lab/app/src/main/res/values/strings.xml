@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">3Lab</string>
+    <string-array name ="savaites_dienos">
+        <item>Pirmadienis</item>
+        <item>Antradienis</item>
+        <item>Trečiadienis</item>
+        <item>Ketvirtadienis</item>
+        <item>Penktadienis</item>
+        <item>Šeštadienis</item>
+        <item>Sekmadienis</item>
+    </string-array>
+</resources>
